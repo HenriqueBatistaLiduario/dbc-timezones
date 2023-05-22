@@ -26,8 +26,7 @@
 		</div>
 		<div v-if="error" class="alert alert-danger text-center" role="alert">
 			Falha ao obter dados | <i>{{ error }}</i><br />
-			O servidor intermediário está indisponível no momento.<br />
-			Experimente recarregar a página daqui a algum tempo.
+			O servidor intermediário está indisponível no momento.
 		</div>
 	</div>
 </template>
@@ -39,8 +38,7 @@
                 currentTimezone: '',     
                 currentDate: '',          
                 currentTime: '',
-                currentMinute: null,
-                previousTime: null,
+                currentMinute: null,                
                 error: null,
                 latitude: null,
                 longitude: null,

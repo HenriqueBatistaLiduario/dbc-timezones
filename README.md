@@ -1,6 +1,6 @@
-## Descrição
+## Meu Projeto Vue.js
 
-Este é um exemplo de código escrito em Vue.js seguindo as boas práticas da linguagem. O código consiste em um componente Vue que exibe informações de diferentes zonas horárias.
+Este é o README do meu projeto Vue.js, desenvolvido como case para a Digital Business Company (DBC), onde vou explicar linha a linha o código-fonte do componente principal, escrito em Vue.js seguindo as boas práticas da linguagem. O código consiste em um componente Vue que exibe informações de diferentes zonas horárias.
 
 ## Instalação e Uso
 
@@ -50,10 +50,6 @@ O projeto utiliza as seguintes dependências:
 - Vue.js: framework JavaScript para a construção de interfaces de usuário interativas.
 - Express: framework para aplicativo da web do Node.js mínimo e flexível que fornece um conjunto robusto de recursos para aplicativos web e móvel.
 - Bootstrap: biblioteca CSS para estilizar os componentes.
-
-## Meu Projeto Vue.js
-
-Este é o README do meu projeto Vue.js, desenvolvido como case para a Digital Business Company (DBC), onde vou explicar linha a linha o código-fonte do componente principal.
 
 ### Arquivo: `App.vue`
 
@@ -105,9 +101,7 @@ O template define a estrutura do componente Vue. Ele contém várias divs que fo
 
 - `<div class="col-sm-4 col-md-4 col-xs-12 mb-2 mt-3 text-center">`: Cria uma coluna com tamanho 4 em telas pequenas, médias e extra pequenas. A classe "mb-2" define uma margem inferior de 2 unidades, e a classe "mt-3" define uma margem superior de 3 unidades. A classe "text-center" centraliza o conteúdo horizontalmente.
 
-- `<div class="card custom
-
--card custom-clock-current">`: Cria uma div com a classe "card" e as classes personalizadas "custom-card" e "custom-clock-current". Essa div representa um cartão com estilo personalizado.
+- `<div class="card custom-card custom-clock-current">`: Cria uma div com a classe "card" e as classes personalizadas "custom-card" e "custom-clock-current". Essa div representa um cartão com estilo personalizado.
 
 - `<div class="card-body text-center">`: Cria uma div com a classe "card-body" e "text-center". Essa div é usada para agrupar o conteúdo dentro do cartão.
 
